@@ -3,8 +3,8 @@
 ## Overview.
 A JavaScript component that is a date &amp; time range picker, no need to build, no dependencies except Moment.js, that is inspired by [Dan Grossman's bootstrap-daterangepicker](https://github.com/dangrossman/daterangepicker).
 
-Actually, this program is base on Dan Grossman's bootstrap-daterangepicker (version 3.1).
-I just changed the code a bit to not need jquery.
+Actually, this program is base on Alumuko vanilla-daterange-picker (0.2.0) based in Dan Grossman's bootstrap-daterangepicker (version 3.1).
+
 
 
 ## Requirements
@@ -89,6 +89,9 @@ new DateRangePicker(bindElement, options, callback);
 | locale.monthNames | array of 12 strings | 12 label texts of month nameweek column. like **['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']** |
 | locale.firstDay | number | 0 = from Sunday, 1 = from Monday, ..., 6 = from Saturday |
 > **strong text value** means default value.
+Changes
+> |timePicker24HourCheckbox | bool | Allows to add a chekbox to dynamically activate the timepicker.
+> |locale.timePicker24HourCheck| string | label for the checkbox to timePicker24HourCheckbox
 
 </details>
 
