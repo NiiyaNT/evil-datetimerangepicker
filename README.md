@@ -46,7 +46,7 @@ new DateRangePicker(bindElement, options, callback);
 
 ## Options
 <details>
-<summary>Almost same as Dan Grossman's bootstrap-daterangepicker Version 3.1</summary>
+<summary>Almost daterangepicker Version 3.1 whith new options</summary>
 
 | name | type | description |
 ----|----|---- 
